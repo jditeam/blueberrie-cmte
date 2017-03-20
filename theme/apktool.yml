@@ -10,7 +10,7 @@ sdkInfo:
 packageInfo:
   forced-package-id: '127'
 versionInfo:
-  versionCode: '0.1'
+  versionCode: '1'
   versionName: 0.0.0.1
 sharedLibrary: false
 doNotCompress:
