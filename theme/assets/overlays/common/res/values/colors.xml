@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+
+    <color name="bg">#1e1e1e</color>
+<!--Background color-->
+    <color name="text_color">#ffffff</color>
+<!--Text color-->
+	
+	<color name="accent_dark">#181818</color>
+<!--Status Bar-->
+    <color name="ab_color">#181818</color>
+<!--Action Bar-->
+    <color name="ab_text_color">#ffffff</color>
+<!--Action bar text color-->
+	<color name="settings_side_icons">#ffffff</color>
+<!--Side icons-->
+	
+    <color name="accent">#ffffff</color>
+<!--Accent-->
+    <color name="button">#6495ed</color>
+<!--Buttons-->
+    <color name="button_text">#ffffff</color>
+<!--Buttons text-->
+    <color name="navigation_bar">#1e1e1e</color>
+<!--Navigation Bar-->
+    <color name="list_divider">#181818</color>
+<!--List divider color-->
+  
+
+
+  
+  
+   <color name="transparent">#00000000</color>
+   <color name="battery_mode">#3a5269</color>
+      <color name="keyboard_dark_bg">#3a5269</color>
+   <color name="keyboard_light_bg">#ffffff</color>
+   
+  
+  
+   <color name="accent_transparent">#50ffffff</color>
+
+
+
+</resources>

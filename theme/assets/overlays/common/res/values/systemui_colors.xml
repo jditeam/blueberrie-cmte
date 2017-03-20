@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+      <color name="notification_header">#181818</color>
+<!--Notification header-->
+      <color name="header_text">#ffffff</color>
+<!--Notification header text-->
+    <color name="notification_qs_bg">#1e1e1e</color>
+<!--Quick toggles background-->
+    <color name="qs_toggles_color">#ffffff</color>
+<!--Quick toggles icons-->
+    <color name="qs_text_color">#ffffff</color>
+<!--Quick toggles text-->
+    <color name="notification_item_bg">#1e1e1e</color>
+<!--Notification item background-->
+    <color name="notification_item_text">#ffffff</color>
+<!--Notification item text-->
+    <color name="notif_circle_bg">#00000000</color>
+<!--Notification icon background-->
+    <color name="brightness_slider">@*common:color/accent</color>
+
+    <color name="qs_tile_divider">#00000000</color>
+<!--Toggles divider line-->
+
+
+</resources>

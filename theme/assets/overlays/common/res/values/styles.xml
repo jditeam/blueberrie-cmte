@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <style name="Hissing.Dialog" parent="@style/Theme.Hissing.Wastes">
+        <item name="android:colorBackground">@*common:color/bg</item>
+        <item name="android:windowBackground">@*common:color/bg</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@*android:style/DialogWindowTitle.Material</item>
+        <item name="android:windowAnimationStyle">@*android:style/Animation.Material.Dialog</item>
+        <item name="android:listDivider">@null</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowCloseOnTouchOutside">@*android:bool/config_closeDialogWhenTouchOutside</item>
+        <item name="android:listPreferredItemPaddingLeft">24.0dip</item>
+        <item name="android:listPreferredItemPaddingRight">24.0dip</item>
+        <item name="android:listPreferredItemPaddingStart">24.0dip</item>
+        <item name="android:listPreferredItemPaddingEnd">24.0dip</item>
+        <item name="android:windowElevation">@*android:dimen/floating_window_z</item>
+        <item name="*android:preferencePanelStyle">@*android:style/PreferencePanel.Dialog</item>
+    </style>
+	
+   <style name="Theme.Hissing.Wastes" parent="@*common:style/Theme.Parent">
+      <item name="android:navigationBarColor">@*common:color/navigation_bar</item>
+      <item name="android:actionBarStyle">@style/Theme.ActionBar</item>
+      <item name="android:colorPrimary">@*common:color/ab_color</item>
+      <item name="android:colorPrimaryDark">@*common:color/accent_dark</item>
+      <item name="android:colorControlActivated">@*common:color/accent</item>
+      <item name="android:colorAccent">@*common:color/accent</item>
+      <item name="android:actionBarTheme">@style/ThemeOverlay.Material.ActionBar</item>
+      <item name="android:colorBackground">@*common:color/bg</item>
+      <item name="android:windowBackground">@*common:color/bg</item>
+      <item name="android:listDivider">@*common:drawable/list_divider</item>
+      <item name="android:textColorPrimary">@*common:color/light_text_selector</item>
+      <item name="android:textAppearanceSmallInverse">@style/TextAppearance.Material.Small</item>
+      <item name="android:textAppearanceMediumInverse">@style/TextAppearance.Material.Medium</item>
+      <item name="android:dialogTheme">@style/Hissing.Dialog</item>
+      <item name="android:textAppearanceLargeInverse">@style/TextAppearance.Material.Large</item>
+      <item name="android:textColorSecondary">@*common:color/light_text_selector</item>
+      <item name="android:textColorTertiary">@*common:color/light_text_selector</item>
+      <item name="android:textColorPrimaryDisableOnly">@*common:color/light_text_selector</item>
+      <item name="*android:actionMenuTextColor">@*common:color/ab_text_color</item>
+      <item name="android:colorControlNormal">@*common:color/light_text_selector</item>
+      <item name="android:toolbarStyle">@style/Widget.Material.Toolbar</item>
+      <item name="android:textAppearanceButton">@style/TextAppearance.Material.Widget.Button</item>
+	  <item name="android:buttonStyle">@style/Widget.Material.Button</item>
+        <item name="android:alertDialogTheme">@style/Hissing.Dialog</item>
+        <item name="android:spinnerDropDownItemStyle">@style/TextAppearance.Material.Widget.DropDownItem</item>
+
+        <item name="android:actionOverflowButtonStyle">@style/Overflow</item>
+        <item name="*android:actionModePopupWindowStyle">@style/Widget.Material.PopupWindow.ActionMode</item>
+
+   </style>
+       <style name="TextAppearance.Material.Medium" parent="@*android:style/TextAppearance.Material">
+        <item name="android:textColor">@*common:color/light_text_selector</item>
+    </style>
+	
+   
+       <style name="TextAppearance.Material.Large" parent="@*android:style/TextAppearance.Material">
+        <item name="android:textSize">@*android:dimen/text_size_large_material</item>
+        <item name="android:textColor">@*common:color/light_text_selector</item>
+    </style>
+   
+   
+       <style name="TextAppearance.Material.Small" parent="@*android:style/TextAppearance.Material">
+        <item name="android:textSize">@*android:dimen/text_size_small_material</item>
+        <item name="android:textColor">@*common:color/light_text_selector</item>
+    </style>
+   
+     <style name="Widget.Material.PopupWindow.ActionMode" parent="@style/Theme.Hissing.Wastes">
+        <item name="android:popupBackground">@drawable/popup_background_material</item>
+        <item name="android:popupAnimationStyle">@*android:style/Animation.PopupWindow.ActionMode</item>
+        <item name="android:popupElevation">@*android:dimen/floating_window_z</item>
+    </style>
+	
+	
+	
+       <style name="Overflow" parent="@*android:style/Widget.Material.ActionButton">
+        <item name="android:background">?*android:actionBarItemBackground</item>
+        <item name="android:src">@drawable/menu</item>
+        <item name="android:minWidth">36dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:paddingStart">6dp</item>
+        <item name="android:paddingEnd">10dp</item>
+    </style>
+	
+	    <style name="TextAppearance.Material.Widget.DropDownItem" parent="@*android:style/TextAppearance.Material.Menu">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+	
+      <style name="Theme.Hissing.Wastes.FAB" parent="@style/Theme.Hissing.Wastes">
+      <item name="android:toolbarStyle">@style/Widget.Material.Toolbar.FAB</item>
+</style>
+
+     <style name="Theme.Emprise.Du.Lion.FAB" parent="@style/Theme.Emprise.Du.Lion">
+      <item name="android:toolbarStyle">@style/Widget.Material.Toolbar.FAB</item>
+</style>
+   
+
+	
+   <style name="Theme.Emprise.Du.Lion" parent="@style/Theme.Hissing.Wastes">
+    
+   </style>
+   <style name="TextAppearance.Material.Widget.Button" parent="@style/TextAppearance.Material.Button"/>
+   <style name="TextAppearance.Material.Button" parent="@*android:style/TextAppearance.Material">
+      <item name="android:textSize">@*android:dimen/text_size_button_material</item>
+      <item name="android:textColor">@*common:color/btn_text_color</item>
+      <item name="android:textAllCaps">true</item>
+      <item name="android:fontFamily">@*android:string/font_family_button_material</item>
+   </style>
+    <style name="Widget.Material.Button" parent="@*android:style/Widget.Material">
+        <item name="android:textAppearance">@style/TextAppearance.Material.Widget.Button</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@*common:drawable/btn_default_material</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:minWidth">88.0dip</item>
+        <item name="android:minHeight">48.0dip</item>
+        <item name="android:stateListAnimator">@*android:anim/button_state_list_anim_material</item>
+    </style>
+	   <style name="Widget.Material.Toolbar.FAB" parent="@*android:style/Widget.Toolbar">
+      <item name="android:paddingStart">0dip</item>
+      <item name="android:paddingEnd">0dip</item>
+	        <item name="android:background">@*common:color/ab_color</item>
+
+      <item name="android:titleTextAppearance">@style/TextAppearance.Material.Widget.Toolbar.Title</item>
+      <item name="android:subtitleTextAppearance">@style/TextAppearance.Material.Widget.Toolbar.Subtitle</item>
+   </style>
+	
+   <style name="ThemeOverlay.Material.ActionBar" parent="@*android:style/ThemeOverlay.Material">
+      <item name="android:colorControlNormal">@*common:color/ab_text_color</item>
+   </style>
+   <style name="TextAppearance.Material.Widget.Toolbar.Title" parent="@*common:style/TextAppearance.Material.Widget.Toolbar.Title"/>
+   <style name="TextAppearance.Material.Widget.Toolbar.Subtitle" parent="@*common:style/TextAppearance.Material.Widget.Toolbar.Subtitle"/>
+   <style name="Widget.Material.Toolbar" parent="@*android:style/Widget.Toolbar">
+      <item name="android:paddingStart">0dip</item>
+      <item name="android:paddingEnd">0dip</item>
+	        <item name="android:background">@*common:drawable/ab_drawable</item>
+
+      <item name="android:titleTextAppearance">@style/TextAppearance.Material.Widget.Toolbar.Title</item>
+      <item name="android:subtitleTextAppearance">@style/TextAppearance.Material.Widget.Toolbar.Subtitle</item>
+   </style>
+   <style name="Theme.ActionBar" parent="@*android:style/Widget.Material.ActionBar">
+      <item name="android:colorControlNormal">@*common:color/ab_text_color</item>
+      <item name="android:background">@*common:drawable/ab_drawable</item>
+      <item name="android:colorPrimary">?*android:colorPrimary</item>
+      <item name="android:colorPrimaryDark">?*android:colorPrimary</item>
+      <item name="android:textColor">@*common:color/ab_text_color</item>
+      <item name="android:backgroundStacked">?*android:colorPrimary</item>
+      <item name="android:titleTextStyle">@style/TitleTextStyle</item>
+      <item name="android:backgroundSplit">?*android:colorPrimary</item>
+   </style>
+   <style name="TitleTextStyle" parent="@*android:style/TextAppearance.Material.Widget.ActionBar.Title">
+      <item name="android:textColor">@*common:color/ab_text_color</item>
+   </style>
+   <style name="TitleTextStyle.Light" parent="@*android:style/TextAppearance.Material.Widget.ActionBar.Title">
+      <item name="android:textColor">@*common:color/ab_text_color</item>
+      <item name="android:shadowColor">#aa000000</item>
+      <item name="android:shadowDx">1</item>
+      <item name="android:shadowDy">1</item>
+      <item name="android:shadowRadius">2</item>
+   </style>
+   <style name="Theme.ActionBar.Light" parent="@style/Theme.ActionBar">
+      <item name="android:titleTextStyle">@style/TitleTextStyle.Light</item>
+   </style>
+   <style name="TextAppearance.Material.Widget.Toolbar.Title" parent="@*android:style/TextAppearance.Material.Widget.ActionBar.Title">
+      <item name="android:textColor">@*common:color/ab_text_color</item>
+      <item name="android:textColorHighlight">@*common:color/ab_text_color</item>
+      <item name="android:textColorHint">@*common:color/ab_text_color</item>
+      <item name="android:textColorLink">@*common:color/ab_text_color</item>
+   </style>
+   <style name="TextAppearance.Material.Widget.Toolbar.Subtitle" parent="@*android:style/TextAppearance.Material.Widget.ActionBar.Subtitle">
+      <item name="android:textColor">@*common:color/ab_text_color</item>
+      <item name="android:textColorHighlight">@*common:color/ab_text_color</item>
+      <item name="android:textColorHint">@*common:color/ab_text_color</item>
+      <item name="android:textColorLink">@*common:color/ab_text_color</item>
+   </style>
+</resources>
