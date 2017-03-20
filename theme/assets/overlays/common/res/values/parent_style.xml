@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
-<resources>
-        <style name="Theme.Parent" parent="@*android:style/Theme.Material" />
-		<style name="Theme.Parent.NoTintSB" parent="@style/Theme.Parent">
-		<item name="android:windowLightStatusBar">false</item>
-		</style>
-</resources>
